@@ -1,0 +1,229 @@
+.background-icon {
+  position: absolute;
+  top: 1px;
+  left: 240px;
+  width: 1440px;
+  height: 1292px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.overview {
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.arrow-down-s-line-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu,
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu {
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.menus {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 223px;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.loader-4-line-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button,
+.label {
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.button {
+  backdrop-filter: var(--blur-button);
+  border-radius: var(--br-xs);
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(94, 94, 94, 0.14),
+      rgba(94, 94, 94, 0) 73.85%
+    ),
+    radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0) 55.59%
+    ),
+    rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  padding: var(--padding-xs);
+}
+.button,
+.button1,
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.button1 {
+  backdrop-filter: var(--blur-button);
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  border: 0.5px solid var(--color-gray-100);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+}
+.buttons {
+  position: absolute;
+  top: 16px;
+  left: 1095px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  width: 108px;
+  height: 59px;
+  object-fit: cover;
+}
+.navbar,
+.prism-vector {
+  position: absolute;
+  overflow: hidden;
+}
+.prism-vector {
+  top: calc(50% - 34px);
+  left: 43px;
+  width: 155px;
+  height: 78px;
+}
+.navbar {
+  top: 2px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 80px;
+}
+.information-fill-icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.badge1 {
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.badge,
+.label4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-7xs);
+}
+.badge {
+  backdrop-filter: var(--blur-badge);
+  border-radius: var(--br-77xl);
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 255, 255, 0.16),
+      rgba(255, 255, 255, 0)
+    ),
+    rgba(0, 0, 0, 0.64);
+  border: 0.8px solid var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-9xs);
+}
+.polymorphic-obfuscation-with {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  background: linear-gradient(-66.3deg, #1b0b46 14.2%, #c2b0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading1,
+.unlock-the-power {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unlock-the-power {
+  width: 584px;
+  position: relative;
+  font-size: var(--subheading-small-regular-size);
+  letter-spacing: -0.2px;
+  line-height: 32px;
+}
+.heading1 {
+  width: 929px;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  font-size: 72px;
+  color: var(--gray-500);
+}
+.heading-badge {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.button2,
+.heading,
+.heading-badge {
+  display: flex;
+  align-items: center;
+}
+.button2 {
+  backdrop-filter: var(--blur-button);
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet);
+  border: 0.8px solid var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs);
+  font-size: var(--paragraph-large-medium-size);
+}
+.heading {
+  position: absolute;
+  top: calc(50% - 192px);
+  left: calc(50% - 465px);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: var(--paragraph-small-medium-size);
+}
+.prism-header-02 {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-black);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--paragraph-large-medium-size);
+  color: var(--gray-100);
+  font-family: var(--subheading-small-regular);
+}
